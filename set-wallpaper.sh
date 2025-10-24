@@ -2,7 +2,7 @@
 
 # Directory containing wallpapers
 WALLPAPER_DIR="$HOME/Pictures/Wallpapers/"
-IMAGE_PICKER_CONFIG="$HOME/.config/razi-image-picker/image-picker.razi"
+IMAGE_PICKER_CONFIG="$HOME/.config/rofi-wallpaper-picker/image-picker.razi"
 
 # Find all image files in the directory (jpg, jpeg, png)
 WALLPAPER_FILES=$(find "$WALLPAPER_DIR" -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" \))
