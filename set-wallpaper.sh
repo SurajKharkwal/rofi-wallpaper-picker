@@ -2,6 +2,7 @@
 
 # Directory containing wallpapers
 WALLPAPER_DIR="$HOME/Pictures/Wallpapers/"
+IMAGE_PICKER_CONFIG="$HOME/.config/razi-image-picker/image-picker.razi"
 
 # Find all image files in the directory (jpg, jpeg, png)
 WALLPAPER_FILES=$(find "$WALLPAPER_DIR" -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" \))
@@ -26,7 +27,7 @@ done <<<"$WALLPAPER_FILES"
 # Let user pick a wallpaper through rofi
 SELECTED_WALLPAPER=$(echo -e "$ROFI_MENU" | rofi -dmenu \
   -p "Select Wallpaper:" \
-  -theme "$HOME/.config/razi-image-picker/image-picker.razi" \
+  -theme "$IMAGE_PICKER_CONFIG" \
   -markup-rows)
 
 # Remove the "(current)" tag if selected
