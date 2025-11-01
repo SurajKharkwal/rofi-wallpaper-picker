@@ -3,7 +3,6 @@
 A simple and elegant **wallpaper selector** powered by **Rofi**.  
 Quickly browse and set wallpapers from your favorite collection with a sleek Rofi menu.
 
----
 
 ## 🖼️ Preview
 
@@ -16,7 +15,6 @@ Quickly browse and set wallpapers from your favorite collection with a sleek Rof
 | **set-wallpaper.sh** | Launches the Rofi interface and applies the selected wallpaper. |
 | **image-picker.razi** | Defines the Rofi UI layout and behavior. |
 
----
 
 ## 🚀 Installation & Usage
 
@@ -31,7 +29,6 @@ chmod +x ~/.config/rofi-wallpaper-picker/set-wallpaper.sh
 ~/.config/rofi-wallpaper-picker/set-wallpaper.sh
 ```
 
----
 
 ## ⚙️ Configuration
 
